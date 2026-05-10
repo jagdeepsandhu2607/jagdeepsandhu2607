@@ -1,6 +1,50 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wave Point Traders — Pre-Market Briefing Dashboard</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0d0f14; color: #e2e8f0; min-height: 100vh; }
+  nav { display: flex; align-items: center; justify-content: space-between; padding: 1.25rem 2.5rem; border-bottom: 1px solid #1e2535; }
+  .logo { font-size: 18px; font-weight: 600; color: #fff; letter-spacing: -0.3px; }
+  .logo span { color: #3b82f6; }
+  .nav-tag { font-size: 12px; color: #64748b; border: 1px solid #1e2535; padding: 4px 10px; border-radius: 20px; }
+  .hero { max-width: 760px; margin: 0 auto; padding: 80px 2rem 60px; text-align: center; }
+  .badge { display: inline-block; font-size: 12px; color: #3b82f6; background: rgba(59,130,246,0.1); border: 1px solid rgba(59,130,246,0.3); border-radius: 20px; padding: 4px 14px; margin-bottom: 1.5rem; }
+  h1 { font-size: 42px; font-weight: 700; line-height: 1.2; color: #fff; margin-bottom: 1.25rem; letter-spacing: -0.5px; }
+  h1 span { color: #3b82f6; }
+  .sub { font-size: 18px; color: #94a3b8; line-height: 1.7; max-width: 560px; margin: 0 auto 2.5rem; }
+  .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; max-width: 900px; margin: 0 auto; padding: 0 2rem 80px; }
+  .card { background: #131720; border: 1px solid #1e2535; border-radius: 12px; padding: 1.5rem; text-align: left; }
+  .card-icon { font-size: 22px; margin-bottom: .75rem; }
+  .card h3 { font-size: 15px; font-weight: 600; color: #fff; margin-bottom: .4rem; }
+  .card p { font-size: 13px; color: #64748b; line-height: 1.6; }
+  .tech { text-align: center; padding: 2rem; border-top: 1px solid #1e2535; font-size: 13px; color: #475569; }
+  .tech strong { color: #94a3b8; }
+  footer { text-align: center; padding: 2rem; font-size: 12px; color: #334155; border-top: 1px solid #1e2535; }
+</style>
+</head>
 <body>
-<h1>Wave Point Traders</h1>
-<p>Pre-market briefing dashboard — under development.</p>
+<nav>
+  <div class="logo">Wave <span>Point</span> Traders</div>
+  <span class="nav-tag">Under Development</span>
+</nav>
+<div class="hero">
+  <div class="badge">Pre-Market Briefing Dashboard</div>
+  <h1>Smarter mornings.<br><span>Faster decisions.</span></h1>
+  <p class="sub">A personal trading dashboard combining real-time charting, Wyckoff structure analysis, CAM levels, and AI-powered news briefs — all in one place before the market opens.</p>
+</div>
+<div class="features">
+  <div class="card"><div class="card-icon">📊</div><h3>Advanced charting</h3><p>Powered by TradingView charting library with custom indicators.</p></div>
+  <div class="card"><div class="card-icon">🔍</div><h3>Wyckoff analysis</h3><p>Automated phase detection — Spring, SOS, LPS, and Phase E markup.</p></div>
+  <div class="card"><div class="card-icon">📐</div><h3>CAM levels</h3><p>Daily CAM pivot levels calculated automatically from prior session data.</p></div>
+  <div class="card"><div class="card-icon">📰</div><h3>News brief</h3><p>AI-generated pre-market briefs covering earnings, catalysts, and gaps.</p></div>
+  <div class="card"><div class="card-icon">📈</div><h3>VWAP + volume</h3><p>Intraday VWAP and relative volume displayed in real time.</p></div>
+  <div class="card"><div class="card-icon">🔒</div><h3>Personal use</h3><p>Internal dashboard — not public-facing or behind a paywall.</p></div>
+</div>
+<div class="tech"><strong>Built with:</strong> TradingView Advanced Charts · JavaScript · GitHub Pages</div>
+<footer>© 2026 Wave Point Traders — Personal trading dashboard · Canada</footer>
 </body>
 </html>
